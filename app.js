@@ -252,7 +252,7 @@ function updateMenuDisplay() {
             }, 100);
             
             nameElement.textContent = menuItem.name;
-            priceElement.textContent = `â¹${randomPrice}`;
+            priceElement.textContent = `₹${randomPrice}`;
             descElement.textContent = menuItem.description;
             effectElement.textContent = randomEffect;
         }
